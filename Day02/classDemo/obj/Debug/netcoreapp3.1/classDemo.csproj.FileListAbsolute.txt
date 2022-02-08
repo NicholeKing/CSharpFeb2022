@@ -1,0 +1,11 @@
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.exe
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.deps.json
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.runtimeconfig.json
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.runtimeconfig.dev.json
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.dll
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.pdb
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.csprojAssemblyReference.cache
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.AssemblyInfoInputs.cache
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.AssemblyInfo.cs
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.dll
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.pdb
