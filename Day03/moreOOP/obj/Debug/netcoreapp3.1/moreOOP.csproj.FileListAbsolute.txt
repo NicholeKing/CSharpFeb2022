@@ -1,0 +1,11 @@
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\bin\Debug\netcoreapp3.1\moreOOP.exe
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\bin\Debug\netcoreapp3.1\moreOOP.deps.json
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\bin\Debug\netcoreapp3.1\moreOOP.runtimeconfig.json
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\bin\Debug\netcoreapp3.1\moreOOP.runtimeconfig.dev.json
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\bin\Debug\netcoreapp3.1\moreOOP.dll
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\bin\Debug\netcoreapp3.1\moreOOP.pdb
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\obj\Debug\netcoreapp3.1\moreOOP.csprojAssemblyReference.cache
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\obj\Debug\netcoreapp3.1\moreOOP.AssemblyInfoInputs.cache
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\obj\Debug\netcoreapp3.1\moreOOP.AssemblyInfo.cs
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\obj\Debug\netcoreapp3.1\moreOOP.dll
+C:\Users\nicho\Desktop\CodingDojo\ClassMaterial\CSharpFeb2022\GitRepo\Day03\moreOOP\obj\Debug\netcoreapp3.1\moreOOP.pdb
