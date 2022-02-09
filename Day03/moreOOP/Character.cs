@@ -5,7 +5,8 @@ namespace moreOOP
     public abstract class Character
     {
         public string name;
-        public int health;
+        private int health;
+        public int Health {get{return health;}}
         public int strength;
         public int intelligence;
         public string weapon;
@@ -19,6 +20,11 @@ namespace moreOOP
             intelligence = intel;
             weapon = w;
             armorClass = ac;
+        }
+
+        public void changeHealth(int amount)
+        {
+            this.health += amount;
         }
     }
 }

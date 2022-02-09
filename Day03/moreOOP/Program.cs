@@ -39,6 +39,10 @@ namespace moreOOP
             Paul.mana += 1000;
             Console.WriteLine(Paul.mana);
 
+            Frog.changeHealth(-20);
+            Console.WriteLine(Frog.Health);
+            Frog.changeHealth(10000);
+            Console.WriteLine(Frog.Health);
         }
     }
 }
