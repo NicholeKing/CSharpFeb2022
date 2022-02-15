@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Categorizing games</h1>
+    <h3>All games Rated E</h3>
+    <table class="table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Rating</th>
+        </tr>
+        @{
+            foreach(Game g in ViewBag.RatedE)
+            {
+                <tr>
+                    <td>@g.Title</td>
+                    <td>@g.Genre</td>
+                    <td>$@g.Price.ToString("F")</td>
+                    <td>@g.Rating</td>
+                </tr>
+            }
+        }
+    </table>
+    <h3>All games Sorted by Price</h3>
+    <table class="table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Rating</th>
+        </tr>
+        @{
+            foreach(Game g in ViewBag.OrderByPrice)
+            {
+                <tr>
+                    <td>@g.Title</td>
+                    <td>@g.Genre</td>
+                    <td>$@g.Price.ToString("F")</td>
+                    <td>@g.Rating</td>
+                </tr>
+            }
+        }
+    </table>
+    <h3>Do you have Stardew Valley?</h3>
+    <h4>Title: @ViewBag.SDV.Title | Price: $@ViewBag.SDV.Price.ToString("F")</h4>
+</div>
