@@ -1,0 +1,28 @@
+@model Icecream
+
+<h1>Edit your favorite ice cream</h1>
+<form action="/update/@Model.IcecreamId" method="post">
+    <div class="form-group">
+        <label for="Flavor">Flavor</label>
+        <input asp-for="Flavor" class="form-control">
+        <span asp-validation-for="Flavor" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Topping">Topping</label>
+        <input asp-for="Topping" class="form-control">
+        <span asp-validation-for="Topping" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="hasCherry">Has Cherry</label>
+        <input asp-for="hasCherry" class="form-control">
+        <span asp-validation-for="hasCherry" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Container">Container</label>
+        <input asp-for="Container" class="form-control">
+        <span asp-validation-for="Container" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary">
+    </div>
+</form>
