@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using LogReg.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http;
 
 namespace LogReg.Controllers
 {
@@ -44,6 +45,7 @@ namespace LogReg.Controllers
                 newUser.Password = Hasher.HashPassword(newUser, newUser.Password);
                 _context.Users.Add(newUser);
                 _context.SaveChanges();
+                HttpContext.Session.SetString("UserEmail", newUser.Email);
                 return RedirectToAction("Success");
             } else {
                 return View("Index");
@@ -74,6 +76,7 @@ namespace LogReg.Controllers
                     ModelState.AddModelError("LEmail", "Invalid login attempt");
                     return View("Index");
                 }
+                HttpContext.Session.SetString("UserEmail", userInDb.Email);
                 return RedirectToAction("Success");
             } else {
                 return View("Index");
@@ -83,7 +86,11 @@ namespace LogReg.Controllers
         [HttpGet("Success")]
         public IActionResult Success()
         {
-            return View();
+            // I want to access my data
+            string email = HttpContext.Session.GetString("UserEmail");
+            User loggedIn = _context.Users.FirstOrDefault(d => d.Email == email);
+            Console.WriteLine(loggedIn.FavoriteColor);
+            return View(loggedIn);
         }
 
         public IActionResult Privacy()
