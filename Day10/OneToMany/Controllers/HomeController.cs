@@ -26,6 +26,47 @@ namespace OneToMany.Controllers
             return View();
         }
 
+        [HttpPost("addPerson")]
+        public IActionResult addPerson(Person newPerson)
+        {
+            if(ModelState.IsValid)
+            {
+                _context.People.Add(newPerson);
+                _context.SaveChanges();
+                return RedirectToAction("Dashboard");
+            } else {
+                return View("Index");
+            }
+        }
+
+        [HttpGet("Dashboard")]
+        public IActionResult Dashboard()
+        {
+            ViewBag.AllPeople = _context.People.Include(s => s.Pets).ToList();
+            return View();
+        }
+
+        [HttpPost("addCreature")]
+        public IActionResult addCreature(Creature newCreature)
+        {
+            if(ModelState.IsValid)
+            {
+                _context.Creatures.Add(newCreature);
+                _context.SaveChanges();
+                return RedirectToAction("Dashboard");
+            } else {
+                ViewBag.AllPeople = _context.People.Include(s => s.Pets).ToList();
+                return View("Dashboard");
+            }
+        }
+
+        [HttpGet("AllPets")]
+        public IActionResult AllPets()
+        {
+            ViewBag.AllPets = _context.Creatures.Include(a => a.Owner).ToList();
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

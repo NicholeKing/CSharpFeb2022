@@ -14402,6 +14402,11 @@
   "RootNamespace": "OneToMany",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\Views\\Home\\Dashboard.cshtml",
+      "TargetPath": "Views\\Home\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -14414,6 +14419,11 @@
     {
       "FilePath": "c:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\Views\\Home\\AllPets.cshtml",
+      "TargetPath": "Views\\Home\\AllPets.cshtml",
       "FileKind": "mvc"
     },
     {

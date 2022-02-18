@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\OneToMany.csproj": {}
+    "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\OneToMany.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\OneToMany.csproj": {
+    "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\OneToMany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\OneToMany.csproj",
+        "projectUniqueName": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\OneToMany.csproj",
         "projectName": "OneToMany",
-        "projectPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\OneToMany.csproj",
+        "projectPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\OneToMany.csproj",
         "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\obj\\",
+        "outputPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,8 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.5, )"
             },

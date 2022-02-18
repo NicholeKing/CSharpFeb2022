@@ -75,7 +75,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "3.1.5"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -907,11 +907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\OneToMany.csproj",
+      "projectUniqueName": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\OneToMany.csproj",
       "projectName": "OneToMany",
-      "projectPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\OneToMany.csproj",
+      "projectPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\OneToMany.csproj",
       "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\Day10\\OneToMany\\obj\\",
+      "outputPath": "C:\\Users\\nicho\\Desktop\\CodingDojo\\ClassMaterial\\CSharpFeb2022\\GitRepo\\day10\\OneToMany\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
